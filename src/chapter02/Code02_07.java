@@ -16,6 +16,7 @@ public class Code02_07 {
 
         result = num1 / num2;
         System.out.printf("%d / %d = %d\n", num1, num2, result);
+        System.out.printf("%d / %d = %d\n", num1, num2, result);
 
     }
 }
