@@ -22,7 +22,7 @@ public class Lab01 {
 
 //          출력 부분
         System.out.println("** 받는 사람: " + name + "님");
-        System.out.println("** 받는 분 주소: " + name);
+        System.out.println("** 받는 분 주소: " + addr);
         System.out.println("** 배송비 : " + price + "원");
 
 
