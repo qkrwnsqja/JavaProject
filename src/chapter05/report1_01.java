@@ -22,7 +22,7 @@ public class report1_01 {
             System.out.print("이수학점 (숫자): ");
             int credit = scanner.nextInt();
 
-            System.out.print("성적학점 (A+, A0, B+, ...): ");
+            System.out.print("성적학점 (A, A0, B, ...): ");
             String grade = scanner.next();
             scanner.nextLine(); // 줄바꿈 제거
 
@@ -40,13 +40,13 @@ public class report1_01 {
 
     private static double getGradePoint(String grade) {
         return switch (grade) {
-            case "A+" -> 4.5;
+            case "A" -> 4.5;
             case "A0" -> 4.0;
-            case "B+" -> 3.5;
+            case "B" -> 3.5;
             case "B0" -> 3.0;
-            case "C+" -> 2.5;
+            case "C" -> 2.5;
             case "C0" -> 2.0;
-            case "D+" -> 1.5;
+            case "D" -> 1.5;
             case "D0" -> 1.0;
             case "F"  -> 0.0;
             default -> {
