@@ -12,6 +12,6 @@ public class ForTest4 {
             }
         }
 //        System.out.println("1 ~ " + n + "까지의 합계는 "+sum+"이다.");
-        System.out.println("1 ~ " + n + "까지의" + oddEven + "의 합계는 "+sum+"이다.");
+        System.out.println("1 ~ " + n + "까지의 " + oddEven + "의 합계는 "+sum+"이다.");
     }
 }
