@@ -1,4 +1,4 @@
-package Chapter07.rabbit;
+package Chapter07.Rabbit;
 
 public class RabbitTest {
     public static void main(String[] args) {

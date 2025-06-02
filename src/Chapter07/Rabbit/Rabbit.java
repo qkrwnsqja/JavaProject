@@ -1,4 +1,4 @@
-package Chapter07.rabbit;
+package Chapter07.Rabbit;
 
 public class Rabbit {
     //   속성: 모양, x, y
