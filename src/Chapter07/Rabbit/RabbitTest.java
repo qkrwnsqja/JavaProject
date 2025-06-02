@@ -6,9 +6,10 @@ public class RabbitTest {
         Rabbit rabbit2 = new Rabbit();
         Rabbit rabbit3 = new Rabbit();
 
+        rabbit1.shape = "흰색토끼";
         rabbit1.setShape("분홍네모");
         rabbit2.setShape("갈색세모");
-        rabbit3.setShape("파랑동그라미");
+        rabbit2.setShape("파랑동그라미");
 
         rabbit1.setPosition(50, 60);
         rabbit2.setPosition(100, 80);
@@ -21,5 +22,6 @@ public class RabbitTest {
         rabbit1.move();
         rabbit2.move();
         rabbit3.move();
+
     }
 }
