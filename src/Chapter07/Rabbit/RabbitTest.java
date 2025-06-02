@@ -2,9 +2,9 @@ package Chapter07.rabbit;
 
 public class RabbitTest {
     public static void main(String[] args) {
-        rabbit rabbit1 = new rabbit();
-        rabbit rabbit2 = new rabbit();
-        rabbit rabbit3 = new rabbit();
+        Rabbit rabbit1 = new Rabbit();
+        Rabbit rabbit2 = new Rabbit();
+        Rabbit rabbit3 = new Rabbit();
 
         rabbit1.setShape("분홍네모");
         rabbit2.setShape("갈색세모");

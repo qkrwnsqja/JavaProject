@@ -1,6 +1,6 @@
 package Chapter07.rabbit;
 
-public class rabbit {
+public class Rabbit {
     //   속성: 모양, x, y
     private String shape;
     private int x;
